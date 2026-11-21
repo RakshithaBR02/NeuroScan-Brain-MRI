@@ -1,0 +1,16 @@
+# Merge with your existing requirements.txt (keep any pins you already have,
+# and any packages model_architectures_combined.py needs, e.g. timm/einops).
+streamlit>=1.30
+torch>=2.1
+torchvision>=0.16
+numpy
+pandas
+altair
+pillow
+scipy
+scikit-image
+matplotlib
+
+# Explainability (new)
+lime
+shap
